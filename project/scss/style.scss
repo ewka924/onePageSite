@@ -1,0 +1,290 @@
+$colors:(
+	brown: #7b6c63,
+	dark-brown: #26221e,
+	dark-grey: #303030,
+	dakrer-grey: #1a1a1a,
+	light-grey: #f5f5f5,
+	);
+
+$fweight:(
+	regular: 400,
+	medium: 500,
+	semi-bold: 600
+	);
+
+
+@function color($color-name){
+	@return map-get($colors, $color-name);
+}
+
+@function fweight($weight){
+	@return map-get($fweight, $weight);
+}
+
+@mixin line{
+	content:"";
+		display:block;
+		width: 15vw;
+		height: 3px;
+		background-color:color(brown);
+		margin:5vh auto;
+}
+
+@mixin buttons{
+	width:260px;
+    height:60px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    text-transform:uppercase;
+    outline: none;
+}
+
+@mixin smallHeader{
+	text-transform:uppercase;
+		text-align:center;
+		color:color(brown);
+		padding-top:2%;
+		padding-bottom:2%;
+
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	overflow-x: none;
+
+
+	nav{
+		
+		width:100%;
+		height:15vh;
+		background-color: color(dark-grey);
+
+		
+
+			.logo{
+				margin:20px;
+			}
+
+			.mobileButton{
+				position:absolute;
+				right:0;
+				margin:20px;
+				background-color:transparent;
+				border:none;
+
+				.burger{
+					font-size:40px;
+					background-color:transparent;
+					color:color(brown);
+				}
+		}
+
+	}
+}
+
+.mobileMenuCont{
+	width:100%;
+	height:auto;
+	margin:10px auto;
+	background-color:color(dark-grey);
+	padding:10px;
+	position:relative;
+
+
+	ul {
+		padding-left:0;
+		li{
+			list-style-type:none;
+			text-align:center;
+			padding-left:0;
+
+			.navLink{
+				color:#fff;
+				text-transform: uppercase;
+				display:block;
+				padding:10px;
+				text-decoration:none;
+			}
+			.navLink:hover{
+				text-decoration:none;
+				background-color:color(brown);
+			}
+		}
+	
+	}
+
+}
+
+.toggleMenu{
+	display:none;
+
+}
+
+.headerContainer{
+	position:relative;
+}
+
+.headerTitle{
+	max-width: 100%;
+	background:url("../img/background.png");
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center top;
+    padding:8%;
+
+    h3{
+    	text-transform:uppercase;
+    	color:#fff;
+    	font-weight: fweight(regular);
+    }
+
+    h1{
+    	text-transform:uppercase;
+    	color:#fff;
+    	font-weight: fweight(semi-bold);
+    	padding:2% 0;
+
+    	.colorWord{
+    		color:color(brown);
+    	}
+    }
+
+    .buttonHeader{
+    	@include buttons;
+    	background-color:color(dark-brown);
+    	color:#fff;
+    	
+    }
+}
+
+.aboutUs{
+	padding:0 !important;
+}
+
+.line{
+	@include line;
+}
+
+.about{
+	padding:5%;
+	h2{
+		text-align:center;
+		text-transform:uppercase;
+		color:color(brown);
+		font-weight:fweight(semi-bold);
+	}
+	p{
+		text-align:center;
+	}
+}
+
+.best{
+	background-color:color(light-grey);
+	margin:0;
+	padding:5%;
+	
+	h3{
+		
+		@include smallHeader;
+	}
+	p{
+		padding-top:5%;
+		padding-bottom:5%;
+	}
+
+	.buttons{
+		@include buttons;
+		background-color:transparent;
+		border:solid 2px color(dark-brown);
+		color:color(dark-brown);
+	}
+	.buttons:focus{
+		background-color:color(dark-brown);
+		color:#fff;
+	}
+}
+
+.services{
+	padding:5%;
+	h3{
+		@include smallHeader;
+	}
+
+	p{
+		padding-top:5%;
+		padding-bottom:5%;
+		text-align:center;
+
+	}
+
+}
+
+
+	.service{
+		text-align:center;
+		margin:20px;
+
+		i{
+			font-size:30px;
+			color:color(brown);
+			padding-bottom:5%;
+		}
+		h4{
+			@include smallHeader;
+		}
+	}
+
+	.resp{
+		width:100%;
+		height:450px;
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+    	align-items: center;
+    	background:url(../img/skils_back.png);
+
+		.counter{
+			width:100px;
+			min-height:100px;
+
+			.counterItem{
+				width:200px;
+				height:200px;
+				border: solid 2px color(brown);
+				border-radius:50%;
+
+				.counterCircle{
+					width:100%;
+					height:100%;
+				}
+			}
+		}
+	}
+
+
+
+@media only screen and (max-width: 600px) {
+  .resp{
+  	background: none;
+  	background-color:color(dark-brown);
+ 	min-height:auto;
+ 	width:100%;
+ 	height:auto;
+    display:flex;
+    flex-direction: column;
+
+
+    .counter{
+			width:100%;
+			min-height:auto;
+
+			.counterItem{
+				margin: 5% auto;
+
+
+			}
+     }
+}
+}	
