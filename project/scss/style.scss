@@ -49,6 +49,24 @@ $fweight:(
 
 }
 
+@mixin skillBack{
+	width:100%;
+	height:auto;
+	padding:0;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+@mixin skillTextMix{
+	position:relative;
+		width:80%;
+		height:auto;
+		margin:5% auto;
+		text-align:center;
+		text-transform:uppercase;
+		color:#fff;
+}
 body{
 	font-family: 'Raleway', sans-serif;
 	margin:0;
@@ -263,7 +281,12 @@ body{
 		}
 	}
 
-
+.skills{
+	text-transform:uppercase;
+	text-align:center;
+	color:#fff;
+	padding:5%;
+}
 
 @media only screen and (max-width: 600px) {
   .resp{
@@ -282,9 +305,120 @@ body{
 
 			.counterItem{
 				margin: 5% auto;
+				svg{
+					width:196px;
+					height:196px;
 
+				}
 
 			}
      }
-}
+	}
 }	
+
+.counterItem{
+	margin: 5% auto;
+		svg{
+			width:196px;
+			height:196px;
+		}
+
+		.procent{
+			position:absolute;
+			top:40%;
+			left:45%;
+			color:#fff;
+			font-size:3vh;
+		}
+
+			}
+
+.circleBar{
+	stroke-dashoffset:0;
+	transition: stroke-dashoffset 2s linear;
+}
+
+.projects{
+	padding:5%;
+	h2{
+		text-align:center;
+		text-transform:uppercase;
+		color:color(brown);
+	}
+	p{
+		text-align:center;
+	}
+}
+
+.skillBackground1{
+	background:url("../img/skills1.png");
+	@include skillBack;
+}
+
+.skillBackground2{
+	background:url("../img/skills2.png");
+	@include skillBack;
+}
+
+.skillBackground3{
+	background:url("../img/skills3.png");
+	@include skillBack;
+}
+
+.skillBackground4{
+	background:url("../img/skills4.png");
+	@include skillBack;
+	
+}
+
+.skilsContent{
+	width:100%;
+	height:200px;
+	margin:5% auto;
+	background-color:rgba(26,26,26,0.8);
+	display:flex;
+	align-items:center;
+
+
+	.skillsText{
+		@include skillTextMix;
+
+		h5{
+			font-weight:fweight(regular);
+		}
+
+		.skilLine{
+			
+			display:block;
+			width:40px;
+			height:2px;
+			background-color:#fff;
+			margin:5% auto;
+		}
+	}
+}
+
+.darkBackg{
+	background-color:color(dakrer-grey);
+
+	.skillsText2{
+	@include skillTextMix;
+	p{
+		text-transform:none;
+	}
+	a{
+		text-transform:none;
+	}
+}
+}
+
+.containerImg{
+	padding:0 !important;
+
+	.portfolioImg{
+	img{
+		width:100%;
+	}
+}
+}
+

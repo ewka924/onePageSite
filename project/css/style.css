@@ -1,23 +1,23 @@
-/* line 52, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 70, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   overflow-x: none;
 }
 
-/* line 58, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 76, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 body nav {
   width: 100%;
   height: 15vh;
   background-color: #303030;
 }
 
-/* line 66, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 84, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 body nav .logo {
   margin: 20px;
 }
 
-/* line 70, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 88, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 body nav .mobileButton {
   position: absolute;
   right: 0;
@@ -26,14 +26,14 @@ body nav .mobileButton {
   border: none;
 }
 
-/* line 77, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 95, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 body nav .mobileButton .burger {
   font-size: 40px;
   background-color: transparent;
   color: #7b6c63;
 }
 
-/* line 87, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 105, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .mobileMenuCont {
   width: 100%;
   height: auto;
@@ -43,19 +43,19 @@ body nav .mobileButton .burger {
   position: relative;
 }
 
-/* line 96, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 114, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .mobileMenuCont ul {
   padding-left: 0;
 }
 
-/* line 98, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 116, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .mobileMenuCont ul li {
   list-style-type: none;
   text-align: center;
   padding-left: 0;
 }
 
-/* line 103, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 121, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .mobileMenuCont ul li .navLink {
   color: #fff;
   text-transform: uppercase;
@@ -64,23 +64,23 @@ body nav .mobileButton .burger {
   text-decoration: none;
 }
 
-/* line 110, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 128, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .mobileMenuCont ul li .navLink:hover {
   text-decoration: none;
   background-color: #7b6c63;
 }
 
-/* line 120, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 138, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .toggleMenu {
   display: none;
 }
 
-/* line 125, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 143, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .headerContainer {
   position: relative;
 }
 
-/* line 129, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 147, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .headerTitle {
   max-width: 100%;
   background: url("../img/background.png");
@@ -90,14 +90,14 @@ body nav .mobileButton .burger {
   padding: 8%;
 }
 
-/* line 137, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 155, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .headerTitle h3 {
   text-transform: uppercase;
   color: #fff;
   font-weight: 400;
 }
 
-/* line 143, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 161, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .headerTitle h1 {
   text-transform: uppercase;
   color: #fff;
@@ -105,12 +105,12 @@ body nav .mobileButton .burger {
   padding: 2% 0;
 }
 
-/* line 149, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 167, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .headerTitle h1 .colorWord {
   color: #7b6c63;
 }
 
-/* line 154, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 172, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .headerTitle .buttonHeader {
   width: 260px;
   height: 60px;
@@ -123,12 +123,12 @@ body nav .mobileButton .burger {
   color: #fff;
 }
 
-/* line 162, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 180, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .aboutUs {
   padding: 0 !important;
 }
 
-/* line 166, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 184, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .line {
   content: "";
   display: block;
@@ -138,12 +138,12 @@ body nav .mobileButton .burger {
   margin: 5vh auto;
 }
 
-/* line 170, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 188, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .about {
   padding: 5%;
 }
 
-/* line 172, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 190, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .about h2 {
   text-align: center;
   text-transform: uppercase;
@@ -151,19 +151,19 @@ body nav .mobileButton .burger {
   font-weight: 600;
 }
 
-/* line 178, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 196, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .about p {
   text-align: center;
 }
 
-/* line 183, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 201, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .best {
   background-color: #f5f5f5;
   margin: 0;
   padding: 5%;
 }
 
-/* line 188, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 206, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .best h3 {
   text-transform: uppercase;
   text-align: center;
@@ -172,13 +172,13 @@ body nav .mobileButton .burger {
   padding-bottom: 2%;
 }
 
-/* line 192, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 210, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .best p {
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-/* line 197, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 215, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .best .buttons {
   width: 260px;
   height: 60px;
@@ -192,18 +192,18 @@ body nav .mobileButton .burger {
   color: #26221e;
 }
 
-/* line 203, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 221, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .best .buttons:focus {
   background-color: #26221e;
   color: #fff;
 }
 
-/* line 209, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 227, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .services {
   padding: 5%;
 }
 
-/* line 211, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 229, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .services h3 {
   text-transform: uppercase;
   text-align: center;
@@ -212,27 +212,27 @@ body nav .mobileButton .burger {
   padding-bottom: 2%;
 }
 
-/* line 215, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 233, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .services p {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
 }
 
-/* line 225, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 243, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .service {
   text-align: center;
   margin: 20px;
 }
 
-/* line 229, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 247, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .service i {
   font-size: 30px;
   color: #7b6c63;
   padding-bottom: 5%;
 }
 
-/* line 234, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 252, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .service h4 {
   text-transform: uppercase;
   text-align: center;
@@ -241,7 +241,7 @@ body nav .mobileButton .burger {
   padding-bottom: 2%;
 }
 
-/* line 239, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 257, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .resp {
   width: 100%;
   height: 450px;
@@ -252,13 +252,13 @@ body nav .mobileButton .burger {
   background: url(../img/skils_back.png);
 }
 
-/* line 248, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 266, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .resp .counter {
   width: 100px;
   min-height: 100px;
 }
 
-/* line 252, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 270, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .resp .counter .counterItem {
   width: 200px;
   height: 200px;
@@ -266,14 +266,22 @@ body nav .mobileButton .burger {
   border-radius: 50%;
 }
 
-/* line 258, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+/* line 276, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
 .resp .counter .counterItem .counterCircle {
   width: 100%;
   height: 100%;
 }
 
+/* line 284, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skills {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 5%;
+}
+
 @media only screen and (max-width: 600px) {
-  /* line 269, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+  /* line 292, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
   .resp {
     background: none;
     background-color: #26221e;
@@ -283,15 +291,178 @@ body nav .mobileButton .burger {
     display: flex;
     flex-direction: column;
   }
-  /* line 279, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+  /* line 302, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
   .resp .counter {
     width: 100%;
     min-height: auto;
   }
-  /* line 283, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+  /* line 306, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
   .resp .counter .counterItem {
     margin: 5% auto;
   }
+  /* line 308, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+  .resp .counter .counterItem svg {
+    width: 196px;
+    height: 196px;
+  }
+}
+
+/* line 319, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.counterItem {
+  margin: 5% auto;
+}
+
+/* line 321, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.counterItem svg {
+  width: 196px;
+  height: 196px;
+}
+
+/* line 326, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.counterItem .procent {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: #fff;
+  font-size: 3vh;
+}
+
+/* line 336, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.circleBar {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 2s linear;
+}
+
+/* line 341, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.projects {
+  padding: 5%;
+}
+
+/* line 343, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.projects h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #7b6c63;
+}
+
+/* line 348, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.projects p {
+  text-align: center;
+}
+
+/* line 353, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skillBackground1 {
+  background: url("../img/skills1.png");
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* line 358, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skillBackground2 {
+  background: url("../img/skills2.png");
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* line 363, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skillBackground3 {
+  background: url("../img/skills3.png");
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* line 368, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skillBackground4 {
+  background: url("../img/skills4.png");
+  width: 100%;
+  height: auto;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* line 374, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skilsContent {
+  width: 100%;
+  height: 200px;
+  margin: 5% auto;
+  background-color: rgba(26, 26, 26, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+/* line 383, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skilsContent .skillsText {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: 5% auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 386, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skilsContent .skillsText h5 {
+  font-weight: 400;
+}
+
+/* line 390, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.skilsContent .skillsText .skilLine {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5% auto;
+}
+
+/* line 401, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.darkBackg {
+  background-color: #1a1a1a;
+}
+
+/* line 404, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.darkBackg .skillsText2 {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin: 5% auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 406, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.darkBackg .skillsText2 p {
+  text-transform: none;
+}
+
+/* line 409, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.darkBackg .skillsText2 a {
+  text-transform: none;
+}
+
+/* line 415, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.containerImg {
+  padding: 0 !important;
+}
+
+/* line 419, C:/Users/ewelina/Desktop/lp/project/scss/style.scss */
+.containerImg .portfolioImg img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=../css/style.map */
